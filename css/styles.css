@@ -111,7 +111,7 @@ body {
   
   .left-sidebar {
     width: 15%;
-    margin: 12px;
+    margin: 8px;
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -196,7 +196,7 @@ body {
   
   .right-sidebar {
     width: 25%;
-    margin: 12px;
+    margin: 8px;
     padding: 16px;
     background-color: white;
     border-radius: 10px;
@@ -206,13 +206,178 @@ body {
   }
   .content {
     width: 50%;
-    margin: 12px;
-    padding: 16px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .action-order-by{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+    margin: 8px;
+  }
+  .action-order-by .horizontal-divider{
+    display: flex;
+      flex-direction: row;
+      border-top-style: solid;
+      border-width: 0.5px;
+      border-color: #9a9a9a82;
+      width: 68%; 
+  }
+  .action-order-by .order-by-container p {
+    margin: 0; 
+    padding: 0;
+    color: #666666;
+    font-size: 13px;
+  }
+  .action-order-by .order-by-container a {
+    color: #141414;
+    padding-left: 4px;
+    font-size: 13px;
+    font-weight: 900;
+    text-decoration: none;
+  }
+  .action-order-by .order-by-container .link-dropdown img{
+    margin: 0 22px 0 6px;
+  } 
+  .order-by-container {
+    width: 32%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+  }
+
+  .content .posts-section{
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
     background-color: white;
     border-radius: 10px;
     border-style: solid;
     border-width: 0.5px;
     border-color: #9a9a9a82;
+  }
+
+  .posts-section .post-autor-information{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+  }
+  
+  .posts-section .post-info {
+    margin-left: 12px;
+    padding: 0;
+  }
+  .posts-section .post-info h4 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .posts-section .post-info p {
+    margin: 0; 
+    padding: 0;
+    color: #666666;
+    font-size: 13px;
+  }
+  .posts-section .post-info a {
+    margin: 0; 
+    padding: 0;
+    color: #171717;
+    font-style: none;
+    font-size: 16px;
+  }
+
+  .posts-section .post-info .post-title{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .posts-section .post-info .post-title p {
+    color: #666666;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .posts-section .post-info .post-publication-info{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .posts-section .post-text-content {
+    margin: -8px 12px 12px 12px;
+    padding: 0;
+  }
+  .posts-section .post-text-content p {
+    margin: 10px 0;
+    font-size: 15px;
+  }
+  .posts-section .post-image-content img {
+    display: block;
+    width: 100%;
+  }
+  .posts-section .post-statistics-content {
+    display: flex;
+    align-items: center;
+    margin: 8px 16px;
+  }
+  .posts-section .post-statistics-content p {
+    margin: 0;
+    color: #666666;
+    font-size: 12px;
+  }
+  .posts-section .post-statistics-content img {
+    margin: 0;
+    margin-right: 6px;
+    color: #666666;
+    font-size: 12px;
+  }
+
+  .posts-section .post-actions-content {
+    display: flex;
+    flex-direction: row;
+    margin: 12px;
+  }
+  .posts-section .post-actions-content button{
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    margin-right: 8px;
+    color: #666666;
+    background-color: transparent;
+    border-style: none;
+    font-size: 14px;
+    font-weight: 800;
+  }
+  .posts-section .post-actions-content p{
+    margin: 0 6px;
+  }
+  .posts-section .horizontal-divider{
+      display: flex;
+      flex-direction: column;
+      border-top-style: solid;
+      border-width: 0.5px;
+      border-color: #9a9a9a82;
+      width: 100%; 
+  }
+
+  .create-new{
+    margin: 12px;
+  }
+
+  #point-divider{
+    width: 4px;
+    height: 4px;
+    margin: 0 6px;
+    background-color: #393939;
+    border-radius: 50px;
   }
   
   .section-left-side{
